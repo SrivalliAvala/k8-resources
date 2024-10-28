@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+    project: expense
+    environment: dev
+spec: 
+  containers:
+  - name: nginx
+    image: nginx:latest
+  - name: almalinux
+    image: almalinux:latest
+    Command: ["sleep","1000"]
