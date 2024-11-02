@@ -7,4 +7,4 @@ spec:
   containers:
   # docker run -d --name nginx nginx
   - name: debug
-    image: srivalliavala7s/debug:v1
+    image: srivalliavala7/debug:v1
